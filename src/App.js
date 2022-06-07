@@ -1,9 +1,13 @@
+import Input from "./components/Input";
+
+import Example from './Examples/Example';
+
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <Example />
+      <Input />
+    </>
   );
 }
-
 export default App;
